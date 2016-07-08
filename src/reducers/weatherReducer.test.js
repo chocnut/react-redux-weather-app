@@ -8,10 +8,10 @@ describe('Weather Reducer', () => {
 
     const initialState = [
       {
-        description: 'light rain',
+        description: 'light rain'
       },
       {
-        description: 'sunny',
+        description: 'sunny'
       }
     ];
 
@@ -19,6 +19,6 @@ describe('Weather Reducer', () => {
     const newState = weatherReducer(initialState, action);
     const descriptionFirst = newState.find( d => d.description == 'light rain');
     expect(newState.length).toEqual(2);
-    expect(descriptionFirst.description).toEqual('light rain')
+    expect(descriptionFirst.description).toEqual('light rain');
   });
 });

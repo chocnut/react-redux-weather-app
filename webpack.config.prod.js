@@ -10,7 +10,7 @@ export default {
   debug: true,
   devtool: 'source-map',
   noInfo: false,
-  entry: './src/index',
+  entry: './src/app',
   target: 'web',
   output: {
     path: __dirname + '/dist',

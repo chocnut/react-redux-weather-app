@@ -4,7 +4,7 @@ import * as weatherActions from '../actions/weatherActions';
 import { bindActionCreators } from 'redux';
 import WeatherList from './WeatherList';
 
-class HomePage extends React.Component {
+export class HomePage extends React.Component {
   constructor(props, context) {
     super(props, context);
   }

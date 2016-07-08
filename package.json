@@ -7,7 +7,7 @@
     "open:src": "babel-node server.js",
     "lint": "node_modules/.bin/esw webpack.config.* src",
     "lint:watch": "npm run lint -- --watch",
-    "test": "mocha --reporter progress testSetup.js \"src/**/*.test.js\"",
+    "test": "mocha --reporter spec testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
   "author": "Peter Indiola",

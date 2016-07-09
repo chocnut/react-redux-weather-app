@@ -20,6 +20,6 @@ app.listen(port, function(err) {
     console.log(err);
   } else {
     // open(`http://localhost:${port}`);
-    console.log('Node app is running on port', app.get('port'));
+    console.log('Node app is running on port', port);
   }
 });

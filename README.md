@@ -1,6 +1,6 @@
 #Weather App
 
-##React-Redux-ReactRouter Project using OpenWeatherMap API.
+###React-Redux-ReactRouter Project using OpenWeatherMap API.
 
 [Demo](http://react-redux-weather-app.getforge.io/)
 
